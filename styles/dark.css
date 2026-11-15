@@ -7,16 +7,13 @@
 :root.theme-dark {
   --bg-color: #000028;
   --page-bg-image: url(../images/cover-image-dark.png);
-  --text-color: #fde4f2;
-  --accent-color: #ff0070;
-  --title-color: #ff00ff;
+  --text-color: #ebbbd4;
+  --title-color: #dc00ff;
   --section-title-color: #ff0070;
   --decor-bg-color: #ff0070;
   --decor-text-color: #000028;
-  --link-color: #ff0070;
-  --theme-button-color: #ff0070;
-  --theme-button-hover-border-color: rgb(255 0 112 / 0.5);
-  --corner-color: #ff0070;
+  --ui-color: #ff0070;
+  --ui-hover-color: rgb(255 0 112 / 0.5);
 }
 
 .theme-dark .header__rec {
