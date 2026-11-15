@@ -148,7 +148,7 @@
 
 .section__cards {
   display: grid;
-  gap: 24px;
+  gap: 20px;
 }
 
 .section__subtitle {
@@ -160,10 +160,6 @@
   font-size: inherit;
 }
 
-.card__title_weight_regular {
-  font-weight: normal;
-}
-
 .card__text:not(:last-child) {
   margin-block-end: 1em;
 }
@@ -172,6 +168,10 @@
   color: var(--decor-text-color, #000028);
   font-weight: bold;
   background-color: var(--decor-bg-color, #ff0070);
+}
+
+.card__title_weight_regular {
+  font-weight: normal;
 }
 
 .link {

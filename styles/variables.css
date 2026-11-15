@@ -35,7 +35,7 @@
     --title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     --page-padding: 20px;
     --content-padding: 60px;
-    --section-gap: 90px;
+    --section-gap: 80px;
     --zone-min-height: 1024px;
   }
 }
