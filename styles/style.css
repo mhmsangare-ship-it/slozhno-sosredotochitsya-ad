@@ -58,6 +58,7 @@
 .header {
   display: grid;
   grid-template-rows: 1fr auto 1fr;
+  padding-block-end: calc(var(--page-padding, 10px) + 20px);
 }
 
 .header__theme-menu {
@@ -225,6 +226,10 @@
 /* Планшет */
 
 @media (width >= 768px) {
+  .header {
+    padding-block-end: var(--page-padding, 20px);
+  }
+
   .header__title {
     margin-inline-start: calc(-1 * var(--page-padding, 20px));
   }
@@ -235,7 +240,7 @@
   }
 
   .section {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
     column-gap: 20px;
   }
 
@@ -272,6 +277,10 @@
 /* Десктоп */
 
 @media (width >= 1024px) {
+  .section {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .header__theme-menu {
     align-self: start;
     justify-self: center;

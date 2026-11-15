@@ -44,3 +44,15 @@
 │   └── light.css     — светлая тема (по классу и по системной настройке)
 └── index.html
 ```
+
+## Как запустить локально
+
+1. Склонируйте репозиторий:
+   ```bash
+   git clone https://github.com/mhmsangare-ship-it/slozhno-sosredotochitsya-ad.git
+   ```
+2. Откройте файл `index.html` в браузере.
+
+## Автор
+
+Mahama SANGARE — студент Яндекс Практикума.
